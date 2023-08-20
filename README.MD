@@ -19,4 +19,4 @@ Now got to http://localhost:3000
 Enter a existing symbol (else you will get error)
 Select a good date (here good means a date that wasn't a holiday/wekend)
 There is a restriction on date. You can't select a future date.
-Color of the date and symbol name is decided weather the candle of that day was green or red.
+Color of the date and symbol name is decided by the color of the candle of that day.

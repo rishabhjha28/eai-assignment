@@ -1,4 +1,4 @@
-import React from 'react'
+import { memo } from "react";
 import SubData from './SubData'
 
 const DataViewer = ({ data }) => {
@@ -19,4 +19,4 @@ const DataViewer = ({ data }) => {
     )
 }
 
-export default DataViewer
+export default memo(DataViewer)

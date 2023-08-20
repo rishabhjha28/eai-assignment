@@ -65,7 +65,7 @@ function App() {
 			<form onSubmit={getData} className="flex flex-col">
 				<div className="my-1">
 					<label htmlFor="symbol">Symbol: </label>
-					<input className="px-2 py-1 border rounded-md border-gray-600 outline-none" required type="text" name="symbol" value = {formData.symbol} onChange={fillForm} />
+					<input className="px-2 py-1 border rounded-md border-gray-600 outline-none" required placeholder="e.g.:AAPL" autoFocus type="text" name="symbol" value = {formData.symbol} onChange={fillForm} />
 				</div>
 				<div className="my-1">
 					<label htmlFor="date">Date: </label>

@@ -57,7 +57,7 @@ function App() {
 				console.log(err)
 				setIsLoading(false);
 				setDataToShow(iniDataToShow);
-				setMessage(`${err.response.data}, Please try again with proper value.`);
+				setMessage(`${err.response?.data}, Please try again with proper value.`);
 			});
 	}
 	return (
